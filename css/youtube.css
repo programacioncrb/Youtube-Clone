@@ -1,0 +1,22 @@
+.thumbnail{
+    width: 300px;
+    display: block;
+}
+
+.serch-text{
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.video-title{
+    width: 300px;
+    
+}
+
+.video-author{
+    display: inline;
+}
+
+.video-stats{
+    display: inline-block;
+}
