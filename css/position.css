@@ -1,0 +1,36 @@
+body {
+    padding-top: 60px;
+    padding-left: 72px;
+}
+
+.navbar {
+    background-color: black;
+    color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.sidebar {
+    background-color: red;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 50px;
+    width: 72px;
+}
+
+.div-01 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.div-02 {
+    background-color: rgba(190, 87, 228, 0.631);
+    width: 200px;
+    height: 200px;
+}

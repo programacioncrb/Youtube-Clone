@@ -1,0 +1,15 @@
+.div01 {
+    background-color: red;
+    width: 100px;
+}
+
+.div02 {
+    background-color: blue;
+    flex: 1;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
