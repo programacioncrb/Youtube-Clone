@@ -1,0 +1,42 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+}
+
+.sidebar-link {
+    height: 76px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-link:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 35px;
+    margin-bottom: 3px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.tooltip {
+    background-color: gray;
+    color: white;
+    opacity: 0;
+}
+
+.upload-icon:hover .tooltip {
+    opacity: 1;
+}

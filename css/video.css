@@ -1,5 +1,7 @@
 body {
     padding-top: 55px;
+    padding-left: 75px;
+    background-color: #f5f3f3;
 }
 
 p {
@@ -62,9 +64,25 @@ p {
 
 .thumbnail-row{
     margin-bottom: 15px;
+    position: relative;
 }
 
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-time {
+    font-family: Roboto,arial;
+    font-size: 12px;
+    font-weight: 500;  /*la fuerza de la fuente*/
+    background-color: black;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
